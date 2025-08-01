@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About Us - TalentHire</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="/about.css" />
+</head>
+<body>
+  <header id="header">
+    <nav class="navbar">
+      <div class="logo">
+        <a href="/"><img src="/logo.png" alt="TalentHire Logo" /></a>
+      </div>
+      <div class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+      <ul class="menu" id="menu">
+        <li class="menu-item"><a href="/">Home</a></li>
+        <li class="menu-item"><a href="/about.html">About Us</a></li>
+        <li class="menu-item"><a href="/contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Star Animation -->
+  <div class="stars">
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+  </div>
+
+  <!-- About Section -->
+  <div class="about-section">
+    <div class="about-row">
+      <div class="about-col left">
+        <h2 class="about-title">Why TalentHire?</h2>
+        <p class="about-description">
+          At TalentHire, we believe hiring should be fast, efficient, and reliable.
+          Our mission is to revolutionize the hiring process through innovation, integrity, and impact.
+        </p>
+        <div class="image-section">
+          <img src="/images/sam.avif" alt="Team Hiring Image" />
+        </div>
+      </div>
+      <div class="about-col right">
+        <div class="features-box">
+          <div class="features-icon"><i class="fas fa-rocket"></i></div>
+          <div class="feature-title">Fast & Smart Hiring</div>
+          <div class="feature-desc">Leverage AI-powered screening tools to streamline candidate selection.</div>
+        </div>
+        <div class="features-box">
+          <div class="features-icon"><i class="fas fa-users"></i></div>
+          <div class="feature-title">Top Talent Pool</div>
+          <div class="feature-desc">Access a vast network of pre-vetted, industry-specialized professionals.</div>
+        </div>
+        <div class="features-box">
+          <div class="features-icon"><i class="fas fa-shield-alt"></i></div>
+          <div class="feature-title">Reliable & Secure</div>
+          <div class="feature-desc">We ensure data security and confidentiality throughout the hiring journey.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Toggle Menu
+    document.getElementById('hamburger').addEventListener('click', () => {
+      document.getElementById('menu').classList.toggle('show');
+    });
+  </script>
+</body>
+</html>
