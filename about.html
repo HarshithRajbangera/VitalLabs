@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>About Us - TalentHire</title>
 
-  <!-- Font Awesome -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/images/logo.png" type="image/x-icon">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-  <link rel="stylesheet" href="about.css" />
+  <link rel="stylesheet" href="/about.css">
+  <title>Vital Labs</title>
 </head>
+
 <body>
-  <header id="header">
+  <header id="site-header">
     <nav class="navbar">
       <div class="logo">
-        <a href="/"><img src="/logo.png" alt="TalentHire Logo" /></a>
+        <a href="/">
+          <img src="/images/logo.png" alt="Vital Labs Logo" />
+        </a>
       </div>
       <div class="hamburger" id="hamburger">
         <i class="fas fa-bars"></i>
@@ -26,53 +29,130 @@
     </nav>
   </header>
 
-  <!-- Star Animation -->
-  <div class="stars">
-    <div class="star"></div>
-    <div class="star"></div>
-    <div class="star"></div>
-    <div class="star"></div>
-    <div class="star"></div>
-  </div>
+<section id="about-us">
+  <div class="about-container">
 
-  <!-- About Section -->
-  <div class="about-section">
-    <div class="about-row">
-      <div class="about-col left">
-        <h2 class="about-title">Why TalentHire?</h2>
-        <p class="about-description">
-          At TalentHire, we believe hiring should be fast, efficient, and reliable.
-          Our mission is to revolutionize the hiring process through innovation, integrity, and impact.
+    <!-- Section Header -->
+    <div class="about-header">
+      <h2 class="about-heading">Why VitalLabs?</h2>
+      <p class="about-text">
+        At VitalLabs, we believe hiring should be fast, efficient, and reliable.
+        Our mission is to revolutionize the hiring process through innovation, integrity, and impact.
+      </p>
+    </div>
+
+    <!-- Feature Rows -->
+    <div class="about-feature-row">
+      <div class="about-text-col scroll-fade">
+        <h3>Fast & Smart Hiring</h3>
+        <p>
+          Leverage AI-powered screening tools to streamline candidate selection. Save time and make better hiring decisions with intelligent automation that pre-screens resumes and matches skills effectively.
         </p>
-        <div class="image-section">
-          <img src="/images/sam.avif" alt="Team Hiring Image" />
+      </div>
+      <div class="about-img-col">
+        <img src="/images/Hiring_solution.jpg" alt="Hiring">
+      </div>
+    </div>
+
+    <div class="about-feature-row reverse">
+      
+      <div class="about-text-col scroll-fade">
+        <h3>Top Talent Pool</h3>
+        <p>
+          Gain access to a vast network of pre-vetted, industry-specialized professionals. From tech to finance, we connect you to experts who meet your business needs perfectly.
+        </p>
+      </div>
+      <div class="about-img-col">
+        <img src="/images/Long term Growth.jpeg" alt="Talent">
+      </div>
+    </div>
+
+    <div class="about-feature-row">
+      <div class="about-text-col scroll-fade">
+        <h3>Reliable & Secure</h3>
+        <p>
+          We ensure end-to-end data security, transparent communication, and candidate confidentiality. Every step of the hiring journey is built on trust and technology.
+        </p>
+      </div>
+      <div class="about-img-col">
+        <img src="/images/Hiring Guidaance.jpg" alt="Secure">
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<section id="team-intro">
+  <div class="team-container">
+    <h2 class="team-heading">Our Expert Team</h2>
+    <p class="team-subtitle">Dedicated experts driving our Hiring success</p>
+
+    <div class="team-grid">
+      <!-- Team Member -->
+      <div class="team-member scroll-fade">
+        <img src="/images/Tony_Fred.jpg" alt="Tony Fred">
+        <div class="member-info">
+          <h3>Tony Fred</h3>
+          <p class="role">Chief Executive Officer</p>
+          <p class="bio">Tony is the founder and chief visionary. He actively shapes development, marketing, and user experience.</p>
         </div>
       </div>
-      <div class="about-col right">
-        <div class="features-box">
-          <div class="features-icon"><i class="fas fa-rocket"></i></div>
-          <div class="feature-title">Fast & Smart Hiring</div>
-          <div class="feature-desc">Leverage AI-powered screening tools to streamline candidate selection.</div>
+
+      <!-- Team Member -->
+      <div class="team-member scroll-fade">
+        <img src="/images/Mich_Stark.jpg" alt="Mich Stark">
+        <div class="member-info">
+          <h3>Mich Stark</h3>
+          <p class="role">Chief Marketing Officer</p>
+          <p class="bio">Mich leads our marketing innovation and oversees creative strategy to boost client engagement.</p>
         </div>
-        <div class="features-box">
-          <div class="features-icon"><i class="fas fa-users"></i></div>
-          <div class="feature-title">Top Talent Pool</div>
-          <div class="feature-desc">Access a vast network of pre-vetted, industry-specialized professionals.</div>
+      </div>
+
+      <!-- Team Member -->
+      <div class="team-member scroll-fade">
+        <img src="/images/Aline_Turner.jpg" alt="Aline Turner">
+        <div class="member-info">
+          <h3>Aline Turner</h3>
+          <p class="role">Chief Digital Officer</p>
+          <p class="bio">Aline manages large-scale digital transformation and supports over 100+ team members in strategy.</p>
         </div>
-        <div class="features-box">
-          <div class="features-icon"><i class="fas fa-shield-alt"></i></div>
-          <div class="feature-title">Reliable & Secure</div>
-          <div class="feature-desc">We ensure data security and confidentiality throughout the hiring journey.</div>
+      </div>
+
+      <!-- Team Member -->
+      <div class="team-member scroll-fade">
+        <img src="/images/Iris_Joe.jpg" alt="Iris Joe">
+        <div class="member-info">
+          <h3>Iris Joe</h3>
+          <p class="role">Chief Strategy Officer</p>
+          <p class="bio">Iris is a financial strategist focused on analytics, international growth, and operational sustainability.</p>
         </div>
       </div>
     </div>
   </div>
+</section>
 
-  <script>
-    // Toggle Menu
-    document.getElementById('hamburger').addEventListener('click', () => {
-      document.getElementById('menu').classList.toggle('show');
-    });
-  </script>
+
+
+  <footer id="site-footer">
+    <ul class="footer-nav">
+      <li><a href="/">Home</a></li>
+      <li><a href="/contact.html">Contact Us</a></li>
+      <li><a href="/privacy">Privacy Policy</a></li>
+    </ul>
+    <div class="footer-contact-info">
+      <span>+91 8792626707</span>
+      <span><a href="mailto:rohan@nimesa.io">rohan@nimesa.io</a></span>
+    </div>
+    <div class="social-media">
+      <a href="https://www.facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.twitter.com" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
+
 </html>

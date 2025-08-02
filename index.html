@@ -2,107 +2,145 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-    <link rel="stylesheet" href="styles.css">
-    <title>Vite-labs</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/images/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="/styles.css">
+  <title>Vital Labs</title>
 </head>
 
 <body>
-    <div id="header">
-        <nav class="navbar">
-            <div class="logo">
-                <a href="/">
-            <img src="/logo.png" alt="Vital Labs Logo" />
-      </a>
-    </div>
-    <div class="hamburger" id="hamburger">
+
+
+  <header id="site-header">
+    <nav class="navbar">
+      <div class="logo">
+        <a href="/">
+          <img src="/images/logo.png" alt="Vital Labs Logo" />
+        </a>
+      </div>
+      <div class="hamburger" id="hamburger">
         <i class="fas fa-bars"></i>
       </div>
-            <ul class="menu">
-                <li class="menu-item"><a href="/">Home</a></li>
-                <li class="menu-item"><a href="/about.html">About Us</a></li>
-                <li class="menu-item"><a href="/contact.html">Contact us</a></li>
-            </ul>
-        </nav>
-    </div>
+      <ul class="menu" id="menu">
+        <li class="menu-item"><a href="/">Home</a></li>
+        <li class="menu-item"><a href="/about.html">About Us</a></li>
+        <li class="menu-item"><a href="/contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <div id="hero">
-        <h1>“Hire Smarter, Faster, and Better” With Vital-labs</h1>
-        <p>Connect with people who don't just fit the role — they fit your vision, culture, and mission.</p>
-        <div class="cta-buttons">
-            <a class="btn consultation" href="/contact.html">Request a Consultation</a>
-            <a class="btn reach-out" href="/contact.html">Reach Out to Us</a>
-        </div>
-    </div>
 
-    <div id="services-overview">
-        <h2>Driving Hiring Success Through Smart Talent Solutions</h2>
-        <p>Empowering Businesses to Build Stronger Teams Faster...</p>
-        <div class="service-points">
-            <div class="point point-01">
-                <h3>01. Tailored Recruitment Strategies</h3>
-                <p>Custom hiring solutions built around your unique business goals and culture</p>
-            </div>
-            <div class="point point-02">
-                <h3>02. Expert-Led Hiring Guidance</h3>
-                <p>Hands-on support from recruitment professionals to overcome your toughest hiring challenges.</p>
-            </div>
-            <div class="point point-03">
-                <h3>03. Scalable Hiring for Long-Term Growth</h3>
-                <p>Future-ready strategies designed to support your evolving workforce needs.</p>
-            </div>
-            <div class="point point-04">
-                <h3>04. Partner With Us to Strengthen Your Brand</h3>
-                <p>Attract top talent by showcasing your employer brand through powerful hiring experiences.</p>
-            </div>
-        </div>
-    </div>
+  <section id="hero-section">
 
-    <div id="impact">
-        <h2>We Deliver Impactful Hiring Solutions</h2>
-        <p>Smart. Scalable. Results-Driven.</p>
-        <ul class="impact-list">
-            <li>Custom hiring frameworks designed around your goals</li>
-            <li>Data-backed sourcing and precision screening</li>
-            <li>Seamless candidate experience to strengthen your employer brand</li>
-        </ul>
-    </div>
+    <div class="bubble" style="width: 20px; height: 20px; left: 10%; background: #F4AAB9; animation-delay: 0s;"></div>
+    <div class="bubble" style="width: 15px; height: 15px; left: 25%; background: #A8E6CF; animation-delay: 2s;"></div>
+    <div class="bubble" style="width: 18px; height: 18px; left: 40%; background: #F3E8FF; animation-delay: 4s;"></div>
+    <div class="bubble" style="width: 12px; height: 12px; left: 60%; background: #F4AAB9; animation-delay: 1s;"></div>
+    <div class="bubble" style="width: 25px; height: 25px; left: 80%; background: #A8E6CF; animation-delay: 3s;"></div>
+    <div class="bubble" style="width: 10px; height: 10px; left: 50%; background: #F3E8FF; animation-delay: 0.5s;"></div>
+    <div class="bubble" style="width: 18px; height: 18px; left: 70%; background: #F4AAB9; animation-delay: 5s;"></div>
 
-    <div id="team-marketing">
-        <h2>Meet Our Marketing Experts</h2>
-        <div class="team-description">
-            <p>Our specialists bring a wealth of knowledge and experience to deliver top-notch marketing strategies
-                every time.</p>
-        </div>
+    <h1>“Hire Smarter, Faster, and Better” With Vital Labs</h1>
+    <p>Connect with people who don't just fit the role — they fit your vision, culture, and mission.</p>
+    <div class="cta-buttons">
+      <a class="btn reach-out" href="/contact.html">Reach Out to Us</a>
     </div>
+  </section>
 
-    <div id="approach">
+  <section id="services-section">
+    <h2>Driving Hiring Success Through Smart Talent Solutions</h2>
+    <p>Empowering businesses to build stronger teams, faster.</p>
+    <div class="services-row">
+
+      <div class="service-card">
+        <img src="/images/Hiring_solution.jpg" alt="Hiring solution">
+        <h3>Tailored Recruitment Strategies</h3>
+        <p>Custom hiring solutions built around your unique business goals and culture.</p>
+      </div>
+
+      <div class="service-card">
+        <img src="/images/Hiring Guidaance.jpg" alt="Hiring Guidance">
+        <h3>Expert-Led Hiring Guidance</h3>
+        <p>Hands-on support from recruitment professionals to overcome your toughest hiring challenges.</p>
+      </div>
+
+      <div class="service-card">
+        <img src="/images/Long term Growth.jpeg" alt="Growth">
+        <h3>Scalable Hiring for Growth</h3>
+        <p>Future-ready strategies designed to support your evolving workforce needs.</p>
+      </div>
+
+      <div class="service-card">
+        <img src="/images/Partner with us.jpeg" alt="Partner">
+        <h3>Elevate Your Employer Brand</h3>
+        <p>Attract top talent by showcasing your brand through powerful hiring experiences.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="impact-section">
+    <h2>We Deliver Impactful Hiring Solutions</h2>
+    <p>Smart. Scalable. Results-Driven.</p>
+    <ul class="impact-list">
+      <li><span>Custom hiring frameworks aligned with your goals</span></li>
+      <li><span>Data-driven sourcing and precision screening</span></li>
+      <li><span>Seamless candidate experiences that enhance your brand</span></li>
+    </ul>
+  </section>
+
+  <section id="team-section">
+  <h2>Meet Our Marketing Experts</h2>
+  <p class="team-intro">Our specialists bring a wealth of knowledge and experience to deliver top-notch marketing strategies every time.</p>
+
+  <div class="carousel-container">
+    <div class="team-approach">
+      <div class="approach-block">
         <h3>Agile Hiring Approach</h3>
-        <blockquote>Our flexible hiring models adapt to your evolving workforce needs, providing scalable solutions
-            across permanent, contract, and executive roles.</blockquote>
+        <blockquote>
+          Our flexible hiring models adapt to your evolving workforce needs, offering scalable solutions across permanent, contract, and executive roles.
+        </blockquote>
+      </div>
+      <div class="approach-block">
         <h3>Recruitment Excellence</h3>
-        <blockquote>We specialize in sourcing top-tier talent through modern recruitment techniques and strategic
-            outreach—ensuring the right hire, every time.</blockquote>
-        <h3>Results Driven</h3>
-        <blockquote>Our flexible hiring models adapt to your evolving workforce needs... (repeated point)</blockquote>
+        <blockquote>
+          We specialize in sourcing top-tier talent through modern recruitment techniques and strategic outreach — ensuring the right hire, every time.
+        </blockquote>
+      </div>
+      <div class="approach-block">
+        <h3>Results-Driven Outcomes</h3>
+        <blockquote>
+          Our team is committed to delivering measurable marketing results by aligning talent with your business goals.
+        </blockquote>
+      </div>
     </div>
+  </div>
+</section>
 
-    <div id="footer">
-        <ul class="footer-links">
-            <li><a href="/">Home</a></li>
-            <li><a href="/contact.html">Contact us</a></li>
-            <li><a href="/privacy">Privacy Policy</a></li>
-        </ul>
-        <div class="footer-contact">
-            <span>+91 8792626707</span>
-            <span>Rohan@nimesa.io</span>
-        </div>
 
+
+  <footer id="site-footer">
+    <ul class="footer-nav">
+      <li><a href="/">Home</a></li>
+      <li><a href="/contact.html">Contact Us</a></li>
+      <li><a href="/privacy">Privacy Policy</a></li>
+    </ul>
+    <div class="footer-contact-info">
+      <span>+91 8792626707</span>
+      <span><a href="mailto:rohan@nimesa.io">rohan@nimesa.io</a></span>
     </div>
+    <div class="social-media">
+      <a href="https://www.facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.twitter.com" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+  </footer>
 
-    <script src="/index.js"></script>
+  <script src="/script.js"></script>
 </body>
 
 </html>
